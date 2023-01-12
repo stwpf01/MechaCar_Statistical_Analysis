@@ -14,7 +14,7 @@ This information was found using R and kept in the [MechaCarChallenge](https://g
 
 ![Linear_Regression](https://github.com/stwpf01/MechaCar_Statistical_Analysis/blob/main/Images/1LinearRegression.png)
 
-Two variables that provide a non-random amount of variance to the value mpg is the [ground_clearance] and [vehicle_length] variables. The slope of the model is not zero as the p-value is equal to 5.35e-11, which is significantly lower than the assumed significance level of 0.05%. While this linear model is helpful in determining mpg, the [Intercept] value is statistically significant, meaning there should be more variables and factors that need to be included in order to make a surer judgement. 
+Two variables that provide a non-random amount of variance to the value mpg is the `ground_clearance` and `vehicle_length` variables. The slope of the model is not zero as the p-value is equal to 5.35e-11, which is significantly lower than the assumed significance level of 0.05%. While this linear model is helpful in determining mpg, the `Intercept` value is statistically significant, meaning there should be more variables and factors that need to be included in order to make a surer judgement. 
 ## Summary Statistics on Suspension Coil
 
 
@@ -22,7 +22,7 @@ Two variables that provide a non-random amount of variance to the value mpg is t
 
 ![Lot_Summary](https://github.com/stwpf01/MechaCar_Statistical_Analysis/blob/main/Images/2Lot_Summary_DataFrame.png)
 
-Looking at the [Variance] value in the first image summarizing the total manufacturing lots, one could assume that the data meets the design specification that the suspension coils not exceed 100 pounds per square inch. However, when looking at the lots individually (second figure), it is evident that Lot3 does not meet this requirement as its [Variance] is 170.3. Lot1 and Lot2 are within the design specification parameter.  
+Looking at the `Variance` value in the first image summarizing the total manufacturing lots, one could assume that the data meets the design specification that the suspension coils not exceed 100 pounds per square inch. However, when looking at the lots individually (second figure), it is evident that Lot3 does not meet this requirement as its `Variance` is 170.3. Lot1 and Lot2 are within the design specification parameter.  
 
 ## T-Tests on Suspension Coil
 
